@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+body {
+	background-image:  url('../img/header-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:  0px;
+	padding:  0px;
+	font-family:  'Roboto', sans-serif;
+	background-color:  #242423;
+	color: #000;
+}
+
+.container {
+	width:  100%;
+}
+
+.qtr-width {
+	width:  25%;
+}
+
+.half-width {
+	width:  50%;
+}
+
+.three-qtr-width {
+	width:  75%;
+}
+
+.third-width {
+	width:  30%;
+}
+
+.two-third-width {
+	width: 60%;
+}
+
+.margin-top-15 {
+	margin-top:  15px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.text-center {
+	text-align:  center;
+}
+
+.btn {
+	background:  #F5CB5C;
+	color:  #000;
+	text-decoration:  none;
+	padding: 12px 15px;
+	border-radius: 5px;
+	transition: ease .3s;
+	border: none;
+}
+
+.btn-block {
+	width: 100%;
+	font-size: 1.4em;
+	margin-top: 15px;
+}
+
+.lt-blue {
+	color: #008ed0;
+	font-weight: 900;
+}
+
+.btn:hover {
+	background-color: #deb445;
+}
+
+.navbar {
+	background: #fff;
+	color: #000;
+	padding: 10px;
+	width:  100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.navbar ul {
+	display:  flex;
+	justify-content: right;
+	margin:  15px 30px;
+}
+
+.nav-right {
+	display:  inline-block;
+	list-style:  none;
+	margin-right: 13px;
+}
+
+.nav-right a {
+	text-decoration:  none;
+	color:  #000;
+	text-transform:  uppercase;
+	font-size:  1.4em;
+}
+
+.white-box {
+	background: rgba(255,255,255,0.7);
+	padding: 20px;
+	max-width: 90%;
+	width: 1020px;
+	margin: 0 auto;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#intro {
+	
+	padding: 90px 00px 10px 00px;
+	color: #000;
+}
+
+ #portfolio, #skills, #cats {
+	padding: 125px 30px 10px 30px;
+}
+
+#main-body, #intro, #portfolio h1, #skills h1 {
+	margin-top:  0px;
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+#main-body {
+	padding: 15px 30px 10px 30px;
+	color: #000;
+}
+
+.intro-img {
+	width: 100px;
+}
+
+.intro-text {
+	padding: 15px 0px 15px 40px;
+}
+
+#main-body p {
+	margin-top: 0px !important;
+}
+
+#main-body h4 {
+	margin-bottom: 4px !important;
+}
+
+#main-body i {
+	margin: 5px 4px;
+}
+
+
+/*h1 {
+	font-size: 4em;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 2px;
+	color: #008ed0;
+}*/
+
+#main-body .intro-text, #main-body .intro-pic, .white-box table {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+#portfolio h1, .cat-title h1 {
+	font-size: 2.4em;
+}
+
+.card-text {
+	padding:  7px 50px;
+
+	
+}
+
+.portfolio-img {
+	width: 80%;
+}
+
+/*comments box*/
+#comments {
+	padding-top: 15px;
+	background: #242423;
+	color:  #fff;
+
+}
+
+#portfolio-form {
+	padding-top: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+#comments h3, #comments h4 {
+	margin-top: 0px;
+	margin-bottom: 6px;
+}
+
+#posted-comments {
+	padding: 10px 20px;
+}
+
+.form-name {
+	width: 25%;
+}
+
+.form-comment {
+	width: 65%;
+}
+
+#submit {
+	width: 10%;
+	background: #008ed0;
+	color: #fff;
+	border: none;
+}
+
+
+/*table styles*/
+
+.white-box table {
+	border-collapse:  collapse;
+	border-spacing:  0px;
+}
+
+.white-box table thead {
+background-color:  #1F2421;
+color:  #fff;
+font-size: 1.8em;
+margin: 0px;
+}
+
+.white-box table thead tr th {
+	padding: 7px 20px;
+}
+
+.white-box table {
+width:  70%;
+margin-bottom: 0px;
+}
+
+.white-box table tbody tr td {
+	padding: 8px;
+}
+
+.white-box table tbody tr:nth-child(even) {
+	background-color:  #fff;
+}
+.white-box table tbody tr:nth-child(odd) {
+	background-color:  #f2f2f2;
+}
+
+.white-box td h4 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.skill-color {
+	padding: 7px 12px;
+	border-radius: 5%;
+	color:  #fff;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+.skill-color.green {
+	background-color:  #6B8E23;
+}
+
+.skill-color.yellow {
+	background-color:  #ffc40c;
+}
+
+.skill-color.red {
+	background-color:  #da2c43;
+}
+
+i {
+	color:  #008ed0;
+}
+
+.edu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*cats page styles*/
+.cat-title {
+	padding-top: 125px;
+}
+.cat {
+	display:  flex;
+	justify-content: center;
+	background-color:  #fff;
+	border-radius: 10px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+.cat img, .cat video{
+	display: block;
+	margin-top: 15px;
+	width: 70%;
+}
+
+.cat h3, .cat h4  {
+	color:  #008ed0;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1430px) {
+
+	#top-intro.row, #title {
+		display: block;
+	}
+	.qtr-width, .three-qtr-width {
+		width: 100%;
+		display: block;
+	}
+
+	.intro-text {
+		padding-left: 0px;
+	}
+}
+
+@media screen and (max-width:  1066px) {
+	#portfolio .row {
+		display: block;
+	}
+
+	#portfolio .third-width {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.cat, .row {
+		display: block;
+	}
+
+	.cat img, .cat video {
+		position: relative;
+		margin: 0 auto;
+		margin-top: 7px;
+	}
+
+	.cat .two-third-width {
+		padding:  20px;
+		width: 90%;
+	}
+  .third-width, .two-third-width {
+    width: 100%;
+    display: block;
+  }
+
+  #title span {
+  	font-size: 1.8em;
+
+  }
+
+  #title h1 {
+  	font-size: 2.5em;
+  }
+
+}
+
+
+
+/* Popup box BEGIN */
+
+
+.popup-box {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 551px;
+    min-height: 100px;
+    width: 50%;
+    position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    padding: 25px;
+    display: none;
+}
+.close {
+    background-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+   	text-align: center;
+   	line-height: 25px;
+   	height: 25px;
+    width: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.close:hover {
+    background-color: #ccc;
+}
+#edu-popup {
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.popup-box .card {
+	display: inline-block;
+	margin: 0px 15px 15px 15px;
+	background: #f2f2f2;
+	padding: 0px 20px 20px 20px;
+	text-align: center;
+
+}
+
+.popup-box .graduation {
+	background: #3083DC;
+	color: #fff;
+	font-weight: 900;
+	padding: 20px;
+}
+/* Popup box BEGIN */

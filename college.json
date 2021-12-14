@@ -1,0 +1,26 @@
+{
+	"degrees": [
+		{
+			"Degree1": {
+				"School": "West Chester University",
+				"Program": "Professional Studies",
+				"Type": "BS",
+				"Year": 2018
+			},
+
+			"Degree2": {
+				"School": "Southern New Hampshire University",
+				"Program": "Information Technology conc. Web Desgin/Development",
+				"Type": "BS",
+				"Year": 2021
+			},
+
+			"Degree3": {
+				"School": "Boston University",
+				"Program": "Computer Information Systems conc. Web Application Development",
+				"Type": "MS",
+				"Year": 2023
+			}
+		}
+	]
+}
